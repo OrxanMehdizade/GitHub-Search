@@ -1,0 +1,62 @@
+#contenirSearch{
+    background-color: red;
+    margin: 0 auto;
+    width: 1100px;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 25px;
+    & #contenirGit{
+
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -45%);
+        background-color: black;
+        width: 99%;
+        height: 600px;
+
+        & #imgId{
+            margin: 25px;
+            width: 250px;
+            height: 250px;
+            background-color: white;
+            float: left;
+        }
+        & #pName,#pSurName{
+            width: 360px;
+            height: 30px;
+            background: white;
+            margin-left: 25px;
+            color: black;
+            float: left;
+            clear: left;
+            padding-top: 10px;
+            font-size: 20px;
+        }
+        & #contenirData{
+            background: white;
+            width: 500px;
+            height: 450px;
+            margin-right: 25px;
+            margin-top: 25px;
+            float: right;
+            clear: right;
+        }
+
+    }
+    & #searchId{
+        width: 800px;
+        height: 60px;
+        border: 1px solid white;
+        font-size: 20px;
+        border-radius: 15px;
+        position: absolute;
+        top: 15px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
