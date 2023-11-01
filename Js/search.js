@@ -1,15 +1,6 @@
 let contGit = document.getElementById('contenirGit');
 let searchID = document.getElementById('searchId');
 const img = document.getElementById("imgId");
-const gitUrl = document.getElementById("gitUrl");
-const blogId = document.getElementById("blogId");
-const cityId = document.getElementById("cityId");
-const emailId = document.getElementById("emailId");
-const followersId = document.getElementById("followersId");
-const followingId = document.getElementById("followingId");
-const pName = document.getElementById("pName");
-const pLogin = document.getElementById("pLogin");
-
 searchID.addEventListener('input', showData);
 
 function showData() {
