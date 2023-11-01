@@ -23,7 +23,7 @@
             background-color: white;
             float: left;
         }
-        & #pName,#pSurName{
+        & #pName,#pLogin{
             width: 360px;
             height: 30px;
             background: white;
